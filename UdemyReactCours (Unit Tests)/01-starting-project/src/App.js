@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/Greeting';
+import Async from './components/Async';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       Learn React
       This is a test
       <Greeting />
+      <Async />
     </div>
   );
 }
