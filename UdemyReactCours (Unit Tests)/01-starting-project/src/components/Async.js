@@ -10,6 +10,7 @@ const Async = () => {
                 setPosts(data)
             })
     }, [])
+
     return (
         <div>
             {posts.map(post => (
